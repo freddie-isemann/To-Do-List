@@ -1,3 +1,43 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black
+}
+
+button.blue-button {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+button.blue-button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+button.red-button {
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+button.red-button:hover {
+    background-color: #c82333;
+    cursor: pointer;
+}
+
 div.main-box {
     max-width: fit-content;
     margin: 0 auto;
@@ -9,4 +49,12 @@ div.main-box {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
+}
+
+div.main-box h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 15px;
+    align-content: center;
 }
