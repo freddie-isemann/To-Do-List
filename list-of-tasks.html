@@ -11,21 +11,24 @@
 </head>
 <body>
     <div class = "main-box">
-        <div class = "input">
-            <h1>To-Do</h1>
-            <input type = "text" id = "task-text-box" placeholder = "Write task here" class = "input-field">>
-            <button class = "blue-button" id = "add-task-button">Add Task</button>
-        </div>
-        <div class = "tasks">
+        <section>
+            <header id = "tasks-title">
+                <h1>To-Do</h1>
+            </header>
+            <form id = "new-task">
+                <input type = "text" id = "task-text-box" placeholder = "Write task here" class = "input-field">
+                <button class = "blue-button" id = "add-task-button">Add Task</button>
+            </form>
             <ul id = "task-list">
-                <li id = "todoList"></li>
+                <li class = "list-item">Example item</li>
+                <li class = "list-item">Example item</li>      
             </ul>
-        </div>
-        <hr id = "line">
-        <div class = "task-counter">
-            <p>Current tasks:</p>
-            <button class = "red-button" id = "delete-all">Delete all tasks</button>
-        </div>
+            <hr id = "line">
+            <footer id = "task-information">
+                <p id = "task-counter">Current tasks:</p>
+                <button class = "red-button" id = "delete-all">Delete all tasks</button>
+            </footer> 
+        </section>
     </div>
 </body>
 </html>

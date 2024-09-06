@@ -3,7 +3,19 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: black
+    color: black;
+}
+
+body {
+    background-image: linear-gradient(to top right, rgb(21, 139, 139), rgb(219, 209, 209));
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 button.blue-button {
@@ -38,7 +50,7 @@ button.red-button:hover {
     cursor: pointer;
 }
 
-div.main-box {
+div.main-box section, div.main-box form {
     max-width: fit-content;
     margin: 0 auto;
     padding: 20px;
@@ -49,9 +61,17 @@ div.main-box {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
-div.main-box h1 {
+div.main-box section section, div.main-box section #new-task {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+div.main-box section h1, div.main-box form h1 {
     font-size: 26px;
     font-weight: bold;
     margin: auto;
