@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
 }
 
-button.blue-button {
+button.blue-button, input.blue-button {
     background-color: #007bff;
     color: white;
     border: 1px solid whitesmoke;
@@ -29,12 +29,12 @@ button.blue-button {
     transition: background-color 0.3s;
 }
 
-button.blue-button:hover {
+button.blue-button:hover, input.blue-button:hover {
     background-color: #0056b3;
     cursor: pointer;
 }
 
-button.red-button {
+button.red-button, input.red-button {
     background-color: #dc3545;
     color: white;
     border: 1px solid whitesmoke;
@@ -45,7 +45,7 @@ button.red-button {
     transition: background-color 0.3s;
 }
 
-button.red-button:hover {
+button.red-button:hover, input.red-button:hover {
     background-color: #c82333;
     cursor: pointer;
 }

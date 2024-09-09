@@ -7,15 +7,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <script src = "listeners.js" defer></script>
     <title>Register</title>
 </head>
 <body>
-    <div class = "main-box"></div>
-        <form id = "register-form">
+    <div class = "main-box">
+        <form id = "register-form" action = "register.php" method = "post">
             <h1>Register</h1>
             <input type = "email" id = "email" placeholder = "Email" class = "input-field">
             <input type = "password" id = "password" placeholder = "Password" class = "input-field">
-            <button class = "blue-button" id = "register-button">Register</button>
+            <input type = "submit" class = "blue-button" value = "Submit" id = "register-button">
         </form>
     </div>
 </body>
