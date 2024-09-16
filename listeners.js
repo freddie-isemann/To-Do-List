@@ -40,6 +40,15 @@ if (registerPageButton) {
     });
 }
 
+const cancelButton = document.getElementById('cancel-button');
+if (cancelButton) {
+    document.getElementById('cancel-button').addEventListener('click', function() {
+        console.log('Cancel button clicked');
+        window.location.href = "index.html";
+        // Will redirect to home page when clicked
+    });
+}
+
 // All the above functions will be implemented using PHP and mySQL in the future
 // For now they are just placeholders
 // Database will be implemented using mySQL through xampp server and interacted with PHP
